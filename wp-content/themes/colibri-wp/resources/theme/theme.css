@@ -4439,6 +4439,412 @@ pre {
   white-space: pre-line;
 }
 
+.page-comments .post-comments .comment-metadata * {
+  color: inherit;
+}
+
+.page-comments .post-comments .comment-author img {
+  -webkit-box-sizing: initial;
+          box-sizing: initial;
+}
+
+.page-comments .post-comments .comment-author cite a {
+  color: inherit;
+  font: inherit;
+  line-height: inherit;
+}
+
+.page-comments .post-comments .comment-body .reply a {
+  display: block;
+}
+
+.page-comments .post-comments .comment-body .comment-content * {
+  color: inherit;
+}
+
+.page-comments .post-comments .comment-body ul,
+.page-comments .post-comments .comment-body ol {
+  /** din mesmerize */
+  margin: auto 1.5em 1em 1.5em;
+}
+
+.page-comments .post-comments .comment-body ul ul,
+.page-comments .post-comments .comment-body ul ol,
+.page-comments .post-comments .comment-body ol ul,
+.page-comments .post-comments .comment-body ol ol {
+  margin: 0 0 0 1.5em;
+}
+
+.page-comments .post-comments .comment-list,
+.page-comments .post-comments .comment-list .children {
+  list-style-type: none;
+}
+
+.page-comments .post-comments .comments-disabled {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.page-comments .blog-post-comments-not-allow {
+  border-radius: 3px;
+  background-color: rgba(3, 169, 244, 0.05);
+  border: solid 1px rgba(3, 169, 244, 0.1);
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.page-comments .blog-post-comments-not-allow .blog-comments-not-allow-message {
+  font-weight: 800;
+  font-size: 16px;
+}
+
+.page-comments .comment-respond .comment-form-comment label {
+  display: block;
+}
+
+.page-comments .comment-respond .comment-form-author label {
+  display: block;
+}
+
+.page-comments .comment-respond .comment-form-url label {
+  display: block;
+}
+
+.page-comments .comment-respond .comment-form-email label {
+  display: block;
+}
+
+.page-comments .comment-respond input,
+.page-comments .comment-respond textarea {
+  max-width: 100%;
+}
+
+.page-comments .comment-respond textarea {
+  width: 100%;
+  min-height: 200px;
+  resize: vertical;
+}
+
+.page-comments .comment-respond input[type=submit] {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  cursor: pointer;
+}
+
+#colibri .page-comments .blog-post-comments {
+  border-top-width: 1px;
+  border-top-color: #eeeeee;
+  border-top-style: solid;
+  border-right-width: 0px;
+  border-right-color: #eeeeee;
+  border-right-style: solid;
+  border-bottom-width: 0px;
+  border-bottom-color: #eeeeee;
+  border-bottom-style: solid;
+  border-left-width: 0px;
+  border-left-color: #eeeeee;
+  border-left-style: solid;
+  padding-top: 15px;
+}
+
+#colibri .page-comments .comment.even {
+  background-color: #FFFFFF;
+  background-image: none;
+  border-top-width: 0px;
+  border-top-style: none;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-right-width: 0px;
+  border-right-style: none;
+  border-bottom-width: 0px;
+  border-bottom-style: none;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-left-width: 0px;
+  border-left-style: none;
+  padding-top: 12px;
+  padding-right: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+}
+
+#colibri .page-comments .comment.odd {
+  background-color: rgba(166, 220, 244, 0.1);
+  background-image: none;
+  border-top-width: 0px;
+  border-top-style: none;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-right-width: 0px;
+  border-right-style: none;
+  border-bottom-width: 0px;
+  border-bottom-style: none;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-left-width: 0px;
+  border-left-style: none;
+  padding-top: 12px;
+  padding-right: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+}
+
+#colibri .page-comments .comments-title {
+  font-family: Open Sans;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1.25em;
+  color: black;
+}
+
+#colibri .page-comments .comment-meta {
+  color: #999999;
+  margin-bottom: 16px;
+}
+
+#colibri .page-comments .comment-author img {
+  width: 30px;
+  height: 30px;
+  background-color: unset;
+  background-image: none;
+  border-top-width: 0px;
+  border-top-style: none;
+  border-top-left-radius: 300px;
+  border-top-right-radius: 300px;
+  border-right-width: 0px;
+  border-right-style: none;
+  border-bottom-width: 0px;
+  border-bottom-style: none;
+  border-bottom-left-radius: 300px;
+  border-bottom-right-radius: 300px;
+  border-left-width: 0px;
+  border-left-style: none;
+}
+
+#colibri .page-comments .comment-author .url {
+  font-weight: 600;
+  font-style: normal;
+  text-decoration: none;
+  color: #333333;
+  background-color: unset;
+  background-image: none;
+  margin-left: 5px;
+}
+
+#colibri .page-comments .comment-metadata {
+  text-decoration: none;
+  font-size: 14px;
+  color: #999999;
+  background-color: unset;
+  background-image: none;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+#colibri .page-comments .comment-metadata:hover {
+  color: black;
+}
+
+#colibri .page-comments .comment-metadata:hover {
+  color: black;
+}
+
+#colibri .page-comments .comment-content {
+  text-decoration: none;
+  font-size: 16px;
+  color: #666666;
+}
+
+#colibri .page-comments .comment-content p {
+  color: #666666;
+}
+
+#colibri .page-comments .comment-content a:hover {
+  color: #026e9f;
+}
+
+#colibri .page-comments .comment-body .reply a {
+  margin-bottom: 10px;
+  font-weight: 400;
+  text-transform: lowercase;
+  font-size: 1em;
+  line-height: 1.5;
+  color: #03a9f4;
+}
+
+#colibri .page-comments .comment-body .reply a:hover {
+  color: #026e9f;
+}
+
+#colibri .page-comments .comment-body .reply a:hover {
+  color: #026e9f;
+}
+
+#colibri .page-comments .children {
+  margin-left: 12px;
+}
+
+#colibri .page-comments .comments-disabled {
+  text-align: center;
+  margin-bottom: 0px;
+  text-decoration: none;
+  color: #666666;
+}
+
+#colibri .comment-respond {
+  border-top-width: 1px;
+  border-top-color: #eeeeee;
+  border-top-style: solid;
+  border-right-width: 0px;
+  border-right-color: #eeeeee;
+  border-right-style: solid;
+  border-bottom-width: 0px;
+  border-bottom-color: #eeeeee;
+  border-bottom-style: solid;
+  border-left-width: 0px;
+  border-left-color: #eeeeee;
+  border-left-style: solid;
+  padding-top: 15px;
+}
+
+#colibri .comment-respond .comment-reply-title {
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 1.25em;
+  color: black;
+}
+
+#colibri .comment-respond label {
+  color: #666666;
+  border-top-width: 0px;
+  border-top-style: none;
+  border-right-width: 0px;
+  border-right-style: none;
+  border-bottom-width: 0px;
+  border-bottom-style: none;
+  border-left-width: 0px;
+  border-left-style: none;
+}
+
+#colibri .comment-respond input:not([type="submit"]),
+#colibri .comment-respond textarea {
+  border-top-width: 1px;
+  border-top-color: #eeeeee;
+  border-top-style: solid;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-right-width: 1px;
+  border-right-color: #eeeeee;
+  border-right-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #eeeeee;
+  border-bottom-style: solid;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-left-width: 1px;
+  border-left-color: #eeeeee;
+  border-left-style: solid;
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 16px;
+  color: #666666;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: none;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+
+#colibri .comment-respond .comment-form [type="submit"] {
+  background-color: #03a9f4;
+  background-image: none;
+  border-top-width: 2px;
+  border-top-color: #03a9f4;
+  border-top-style: solid;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-right-width: 2px;
+  border-right-color: #03a9f4;
+  border-right-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #03a9f4;
+  border-bottom-style: solid;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-left-width: 2px;
+  border-left-color: #03a9f4;
+  border-left-style: solid;
+  padding-top: 12px;
+  padding-right: 24px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  font-family: Open Sans;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 1;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+}
+
+#colibri .comment-respond .comment-form [type="submit"]:hover {
+  background-color: #026e9f;
+  border-top-color: #026e9f;
+  border-right-color: #026e9f;
+  border-bottom-color: #026e9f;
+  border-left-color: #026e9f;
+}
+
+#colibri .comment-respond .comment-form [type="submit"]:hover {
+  background-color: #026e9f;
+  border-top-color: #026e9f;
+  border-right-color: #026e9f;
+  border-bottom-color: #026e9f;
+  border-left-color: #026e9f;
+}
+
+#colibri .comment-respond .comment-form [type="submit"]:active {
+  background-color: #03a9f4;
+  background-image: none;
+  border-top-width: 2px;
+  border-top-color: #03a9f4;
+  border-top-style: solid;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-right-width: 2px;
+  border-right-color: #03a9f4;
+  border-right-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #03a9f4;
+  border-bottom-style: solid;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-left-width: 2px;
+  border-left-color: #03a9f4;
+  border-left-style: solid;
+  padding-top: 12px;
+  padding-right: 24px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  font-family: Open Sans;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 1;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+}
+
+#colibri .comment-respond .comment-notes {
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 14px;
+  color: #999999;
+}
+
 [class*=style-],
 [class*=local-style-],
 .h-global-transition,
@@ -4903,6 +5309,10 @@ iframe.colibri-video-background-item.ready {
   flex-grow: 1;
   max-width: 100%;
   min-width: 50px;
+}
+
+.h-column {
+  min-width: 0;
 }
 
 .h-column.masonry-item {
@@ -6754,6 +7164,7 @@ hr + h2:before {
 
 .h-offscreen-panel {
   height: 100%;
+  max-width: 100%;
 }
 
 .offscreen-overlay {
@@ -6831,8 +7242,8 @@ ul.colibri-menu.bordered-active-item > li {
   position: relative;
 }
 
-ul.colibri-menu.bordered-active-item > li:before,
-ul.colibri-menu.bordered-active-item > li:after {
+ul.colibri-menu.bordered-active-item > li::before,
+ul.colibri-menu.bordered-active-item > li::after {
   content: " ";
   display: block;
   width: 100%;
@@ -6843,16 +7254,16 @@ ul.colibri-menu.bordered-active-item > li:after {
   opacity: 0;
 }
 
-ul.colibri-menu.bordered-active-item > li:before {
+ul.colibri-menu.bordered-active-item > li::before {
   top: 0.5em;
 }
 
-ul.colibri-menu.bordered-active-item > li:after {
+ul.colibri-menu.bordered-active-item > li::after {
   bottom: 0.5em;
 }
 
-ul.colibri-menu.bordered-active-item.effect-borders-in > li:not(.current_page_item):not(current-menu-item):before,
-ul.colibri-menu.bordered-active-item.effect-borders-in > li:not(.current_page_item):not(current-menu-item):after {
+ul.colibri-menu.bordered-active-item.effect-borders-in > li:not(.current_page_item):not(current-menu-item)::before,
+ul.colibri-menu.bordered-active-item.effect-borders-in > li:not(.current_page_item):not(current-menu-item)::after {
   width: 100%;
   content: "";
   opacity: 0;
@@ -6860,53 +7271,49 @@ ul.colibri-menu.bordered-active-item.effect-borders-in > li:not(.current_page_it
   transition: all 0.3s;
 }
 
-ul.colibri-menu.bordered-active-item.effect-borders-in > li:not(.current_page_item):not(current-menu-item):before {
-  -webkit-transform: translateY(-10px);
-  transform: translateY(-10px);
+ul.colibri-menu.bordered-active-item.effect-borders-in > li:not(.current_page_item):not(current-menu-item)::before {
+  margin-top: -10px;
 }
 
-ul.colibri-menu.bordered-active-item.effect-borders-in > li:not(.current_page_item):not(current-menu-item):after {
-  -webkit-transform: translateY(10px);
-  transform: translateY(10px);
+ul.colibri-menu.bordered-active-item.effect-borders-in > li:not(.current_page_item):not(current-menu-item)::after {
+  margin-bottom: -10px;
 }
 
-ul.colibri-menu.bordered-active-item.effect-borders-in > li:not(.current_page_item):not(current-menu-item).hover:before,
-ul.colibri-menu.bordered-active-item.effect-borders-in > li:not(.current_page_item):not(current-menu-item).hover:after,
-ul.colibri-menu.bordered-active-item.effect-borders-in > li:not(.current_page_item):not(current-menu-item):hover:before,
-ul.colibri-menu.bordered-active-item.effect-borders-in > li:not(.current_page_item):not(current-menu-item):hover:after {
+ul.colibri-menu.bordered-active-item.effect-borders-in > li:not(.current_page_item):not(current-menu-item).hover::before,
+ul.colibri-menu.bordered-active-item.effect-borders-in > li:not(.current_page_item):not(current-menu-item).hover::after,
+ul.colibri-menu.bordered-active-item.effect-borders-in > li:not(.current_page_item):not(current-menu-item):hover::before,
+ul.colibri-menu.bordered-active-item.effect-borders-in > li:not(.current_page_item):not(current-menu-item):hover::after {
   opacity: 1;
-  -webkit-transform: translateY(0px);
-  transform: translateY(0px);
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-ul.colibri-menu.bordered-active-item.effect-borders-out > li:not(.current_page_item):not(current-menu-item):before,
-ul.colibri-menu.bordered-active-item.effect-borders-out > li:not(.current_page_item):not(current-menu-item):after {
+ul.colibri-menu.bordered-active-item.effect-borders-out > li:not(.current_page_item):not(current-menu-item)::before,
+ul.colibri-menu.bordered-active-item.effect-borders-out > li:not(.current_page_item):not(current-menu-item)::after {
   opacity: 0;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
 
-ul.colibri-menu.bordered-active-item.effect-borders-out > li:not(.current_page_item):not(current-menu-item):before {
-  -webkit-transform: translateY(10px);
-  transform: translateY(10px);
+ul.colibri-menu.bordered-active-item.effect-borders-out > li:not(.current_page_item):not(current-menu-item)::before {
+  margin-top: 10px;
 }
 
-ul.colibri-menu.bordered-active-item.effect-borders-out > li:not(.current_page_item):not(current-menu-item):after {
-  -webkit-transform: translateY(-10px);
-  transform: translateY(-10px);
+ul.colibri-menu.bordered-active-item.effect-borders-out > li:not(.current_page_item):not(current-menu-item)::after {
+  margin-bottom: 10px;
 }
 
-ul.colibri-menu.bordered-active-item.effect-borders-out > li:not(.current_page_item):not(current-menu-item).hover:before,
-ul.colibri-menu.bordered-active-item.effect-borders-out > li:not(.current_page_item):not(current-menu-item).hover:after,
-ul.colibri-menu.bordered-active-item.effect-borders-out > li:not(.current_page_item):not(current-menu-item):hover:before,
-ul.colibri-menu.bordered-active-item.effect-borders-out > li:not(.current_page_item):not(current-menu-item):hover:after {
+ul.colibri-menu.bordered-active-item.effect-borders-out > li:not(.current_page_item):not(current-menu-item).hover::before,
+ul.colibri-menu.bordered-active-item.effect-borders-out > li:not(.current_page_item):not(current-menu-item).hover::after,
+ul.colibri-menu.bordered-active-item.effect-borders-out > li:not(.current_page_item):not(current-menu-item):hover::before,
+ul.colibri-menu.bordered-active-item.effect-borders-out > li:not(.current_page_item):not(current-menu-item):hover::after {
   opacity: 1;
-  -webkit-transform: translateY(0px);
-  transform: translateY(0px);
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
-ul.colibri-menu.bordered-active-item.effect-borders-grow > li:not(.current_page_item):not(current-menu-item):before,
-ul.colibri-menu.bordered-active-item.effect-borders-grow > li:not(.current_page_item):not(current-menu-item):after {
+ul.colibri-menu.bordered-active-item.effect-borders-grow > li:not(.current_page_item):not(current-menu-item)::before,
+ul.colibri-menu.bordered-active-item.effect-borders-grow > li:not(.current_page_item):not(current-menu-item)::after {
   opacity: 0;
   width: 0;
   content: '';
@@ -6914,133 +7321,133 @@ ul.colibri-menu.bordered-active-item.effect-borders-grow > li:not(.current_page_
   transition: all 0.3s;
 }
 
-ul.colibri-menu.bordered-active-item.effect-borders-grow > li:not(.current_page_item):not(current-menu-item):before {
+ul.colibri-menu.bordered-active-item.effect-borders-grow > li:not(.current_page_item):not(current-menu-item)::before {
   left: 0em;
   right: auto;
 }
 
-ul.colibri-menu.bordered-active-item.effect-borders-grow > li:not(.current_page_item):not(current-menu-item):after {
+ul.colibri-menu.bordered-active-item.effect-borders-grow > li:not(.current_page_item):not(current-menu-item)::after {
   right: 0em;
   left: auto;
 }
 
-ul.colibri-menu.bordered-active-item.effect-borders-grow > li:not(.current_page_item):not(current-menu-item).hover:before,
-ul.colibri-menu.bordered-active-item.effect-borders-grow > li:not(.current_page_item):not(current-menu-item).hover:after,
-ul.colibri-menu.bordered-active-item.effect-borders-grow > li:not(.current_page_item):not(current-menu-item):hover:before,
-ul.colibri-menu.bordered-active-item.effect-borders-grow > li:not(.current_page_item):not(current-menu-item):hover:after {
+ul.colibri-menu.bordered-active-item.effect-borders-grow > li:not(.current_page_item):not(current-menu-item).hover::before,
+ul.colibri-menu.bordered-active-item.effect-borders-grow > li:not(.current_page_item):not(current-menu-item).hover::after,
+ul.colibri-menu.bordered-active-item.effect-borders-grow > li:not(.current_page_item):not(current-menu-item):hover::before,
+ul.colibri-menu.bordered-active-item.effect-borders-grow > li:not(.current_page_item):not(current-menu-item):hover::after {
   opacity: 1;
   width: 100%;
 }
 
-ul.colibri-menu.bordered-active-item.effect-none > li:not(.current_page_item):not(current-menu-item):before,
-ul.colibri-menu.bordered-active-item.effect-none > li:not(.current_page_item):not(current-menu-item):after {
+ul.colibri-menu.bordered-active-item.effect-none > li:not(.current_page_item):not(current-menu-item)::before,
+ul.colibri-menu.bordered-active-item.effect-none > li:not(.current_page_item):not(current-menu-item)::after {
   opacity: 0;
   -webkit-transition: none;
   transition: none;
 }
 
-ul.colibri-menu.bordered-active-item.effect-none > li:not(.current_page_item):not(current-menu-item).hover:before,
-ul.colibri-menu.bordered-active-item.effect-none > li:not(.current_page_item):not(current-menu-item).hover:after,
-ul.colibri-menu.bordered-active-item.effect-none > li:not(.current_page_item):not(current-menu-item):hover:before,
-ul.colibri-menu.bordered-active-item.effect-none > li:not(.current_page_item):not(current-menu-item):hover:after {
+ul.colibri-menu.bordered-active-item.effect-none > li:not(.current_page_item):not(current-menu-item).hover::before,
+ul.colibri-menu.bordered-active-item.effect-none > li:not(.current_page_item):not(current-menu-item).hover::after,
+ul.colibri-menu.bordered-active-item.effect-none > li:not(.current_page_item):not(current-menu-item):hover::before,
+ul.colibri-menu.bordered-active-item.effect-none > li:not(.current_page_item):not(current-menu-item):hover::after {
   opacity: 1;
 }
 
-ul.colibri-menu.bordered-active-item.grow-from-left > li:not(.current_page_item):not(current-menu-item):before,
-ul.colibri-menu.bordered-active-item.grow-from-left > li:not(.current_page_item):not(current-menu-item):after {
+ul.colibri-menu.bordered-active-item.grow-from-left > li:not(.current_page_item):not(current-menu-item)::before,
+ul.colibri-menu.bordered-active-item.grow-from-left > li:not(.current_page_item):not(current-menu-item)::after {
   left: 0 !important;
   right: auto !important;
 }
 
-ul.colibri-menu.bordered-active-item.grow-from-right > li:not(.current_page_item):not(current-menu-item):before,
-ul.colibri-menu.bordered-active-item.grow-from-right > li:not(.current_page_item):not(current-menu-item):after {
+ul.colibri-menu.bordered-active-item.grow-from-right > li:not(.current_page_item):not(current-menu-item)::before,
+ul.colibri-menu.bordered-active-item.grow-from-right > li:not(.current_page_item):not(current-menu-item)::after {
   right: 0 !important;
   left: auto !important;
 }
 
-ul.colibri-menu.bordered-active-item.grow-from-center > li:not(.current_page_item):not(current-menu-item):before,
-ul.colibri-menu.bordered-active-item.grow-from-center > li:not(.current_page_item):not(current-menu-item):after {
+ul.colibri-menu.bordered-active-item.grow-from-center > li:not(.current_page_item):not(current-menu-item)::before,
+ul.colibri-menu.bordered-active-item.grow-from-center > li:not(.current_page_item):not(current-menu-item)::after {
   left: 50% !important;
   right: auto !important;
 }
 
-ul.colibri-menu.bordered-active-item.grow-from-center > li:not(.current_page_item):not(current-menu-item).hover:before,
-ul.colibri-menu.bordered-active-item.grow-from-center > li:not(.current_page_item):not(current-menu-item).hover:after,
-ul.colibri-menu.bordered-active-item.grow-from-center > li:not(.current_page_item):not(current-menu-item):hover:before,
-ul.colibri-menu.bordered-active-item.grow-from-center > li:not(.current_page_item):not(current-menu-item):hover:after {
+ul.colibri-menu.bordered-active-item.grow-from-center > li:not(.current_page_item):not(current-menu-item).hover::before,
+ul.colibri-menu.bordered-active-item.grow-from-center > li:not(.current_page_item):not(current-menu-item).hover::after,
+ul.colibri-menu.bordered-active-item.grow-from-center > li:not(.current_page_item):not(current-menu-item):hover::before,
+ul.colibri-menu.bordered-active-item.grow-from-center > li:not(.current_page_item):not(current-menu-item):hover::after {
   left: 0 !important;
   right: auto !important;
 }
 
-ul.colibri-menu.bordered-active-item--top > li:after {
+ul.colibri-menu.bordered-active-item--top > li::after {
   visibility: hidden;
 }
 
-ul.colibri-menu.bordered-active-item--top > .current_page_item:before,
-ul.colibri-menu.bordered-active-item--top > .current-menu-item:before {
+ul.colibri-menu.bordered-active-item--top > .current_page_item::before,
+ul.colibri-menu.bordered-active-item--top > .current-menu-item::before {
   opacity: 1;
 }
 
 /** border active item */
 
-.coloured-nav ul.colibri-menu.bordered-active-item--top > .current_page_item:before,
-.coloured-nav ul.colibri-menu.bordered-active-item--top > .current-menu-item:before {
+.coloured-nav ul.colibri-menu.bordered-active-item--top > .current_page_item::before,
+.coloured-nav ul.colibri-menu.bordered-active-item--top > .current-menu-item::before {
   opacity: 1;
 }
 
-.h-navigation_sticky ul.colibri-menu.bordered-active-item--top > .current_page_item:before,
-.h-navigation_sticky ul.colibri-menu.bordered-active-item--top > .current-menu-item:before {
+.h-navigation_sticky ul.colibri-menu.bordered-active-item--top > .current_page_item::before,
+.h-navigation_sticky ul.colibri-menu.bordered-active-item--top > .current-menu-item::before {
   opacity: 1;
 }
 
 /** border active item */
 
-ul.colibri-menu.bordered-active-item--bottom > li:before {
+ul.colibri-menu.bordered-active-item--bottom > li::before {
   visibility: hidden;
 }
 
-ul.colibri-menu.bordered-active-item--bottom > .current_page_item:after,
-ul.colibri-menu.bordered-active-item--bottom > .current-menu-item:after {
+ul.colibri-menu.bordered-active-item--bottom > .current_page_item::after,
+ul.colibri-menu.bordered-active-item--bottom > .current-menu-item::after {
   opacity: 1;
 }
 
-.coloured-nav ul.colibri-menu.bordered-active-item--bottom > .current_page_item:after,
-.coloured-nav ul.colibri-menu.bordered-active-item--bottom > .current-menu-item:after {
+.coloured-nav ul.colibri-menu.bordered-active-item--bottom > .current_page_item::after,
+.coloured-nav ul.colibri-menu.bordered-active-item--bottom > .current-menu-item::after {
   opacity: 1;
 }
 
-.h-navigation_sticky ul.colibri-menu.bordered-active-item--bottom > .current_page_item:after,
-.h-navigation_sticky ul.colibri-menu.bordered-active-item--bottom > .current-menu-item:after {
+.h-navigation_sticky ul.colibri-menu.bordered-active-item--bottom > .current_page_item::after,
+.h-navigation_sticky ul.colibri-menu.bordered-active-item--bottom > .current-menu-item::after {
   opacity: 1;
 }
 
-ul.colibri-menu.bordered-active-item--top-and-bottom > .current_page_item:before,
-ul.colibri-menu.bordered-active-item--top-and-bottom > .current_page_item:after {
+ul.colibri-menu.bordered-active-item--top-and-bottom > .current_page_item::before,
+ul.colibri-menu.bordered-active-item--top-and-bottom > .current_page_item::after {
   opacity: 1;
 }
 
-ul.colibri-menu.bordered-active-item--top-and-bottom > .current-menu-item:before,
-ul.colibri-menu.bordered-active-item--top-and-bottom > .current-menu-item:after {
+ul.colibri-menu.bordered-active-item--top-and-bottom > .current-menu-item::before,
+ul.colibri-menu.bordered-active-item--top-and-bottom > .current-menu-item::after {
   opacity: 1;
 }
 
-.coloured-nav ul.colibri-menu.bordered-active-item--top-and-bottom > .current_page_item:before,
-.coloured-nav ul.colibri-menu.bordered-active-item--top-and-bottom > .current_page_item:after {
+.coloured-nav ul.colibri-menu.bordered-active-item--top-and-bottom > .current_page_item::before,
+.coloured-nav ul.colibri-menu.bordered-active-item--top-and-bottom > .current_page_item::after {
   opacity: 1;
 }
 
-.coloured-nav ul.colibri-menu.bordered-active-item--top-and-bottom > .current-menu-item:before,
-.coloured-nav ul.colibri-menu.bordered-active-item--top-and-bottom > .current-menu-item:after {
+.coloured-nav ul.colibri-menu.bordered-active-item--top-and-bottom > .current-menu-item::before,
+.coloured-nav ul.colibri-menu.bordered-active-item--top-and-bottom > .current-menu-item::after {
   opacity: 1;
 }
 
-.h-navigation_sticky ul.colibri-menu.bordered-active-item--top-and-bottom > .current_page_item:before,
-.h-navigation_sticky ul.colibri-menu.bordered-active-item--top-and-bottom > .current_page_item:after {
+.h-navigation_sticky ul.colibri-menu.bordered-active-item--top-and-bottom > .current_page_item::before,
+.h-navigation_sticky ul.colibri-menu.bordered-active-item--top-and-bottom > .current_page_item::after {
   opacity: 1;
 }
 
-.h-navigation_sticky ul.colibri-menu.bordered-active-item--top-and-bottom > .current-menu-item:before,
-.h-navigation_sticky ul.colibri-menu.bordered-active-item--top-and-bottom > .current-menu-item:after {
+.h-navigation_sticky ul.colibri-menu.bordered-active-item--top-and-bottom > .current-menu-item::before,
+.h-navigation_sticky ul.colibri-menu.bordered-active-item--top-and-bottom > .current-menu-item::after {
   opacity: 1;
 }
 
@@ -7453,7 +7860,12 @@ ul.colibri-menu li {
 }
 
 ul.colibri-menu li a {
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-decoration: none;
   white-space: nowrap;
   color: inherit;

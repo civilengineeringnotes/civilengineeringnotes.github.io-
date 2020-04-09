@@ -60,27 +60,26 @@
 /******/ 	__webpack_require__.p = "/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 337);
+/******/ 	return __webpack_require__(__webpack_require__.s = 363);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ 337:
+/***/ 363:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(338);
+module.exports = __webpack_require__(364);
 
 
 /***/ }),
 
-/***/ 338:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ 364:
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__images_logo_jpg__ = __webpack_require__(339);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__images_logo_jpg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__images_logo_jpg__);
 
+
+__webpack_require__(365);
 
 // admin notice
 (function ($) {
@@ -188,7 +187,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 /***/ }),
 
-/***/ 339:
+/***/ 365:
 /***/ (function(module, exports) {
 
 module.exports = "./../images/logo.jpg";

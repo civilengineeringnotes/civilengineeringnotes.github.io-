@@ -3,7 +3,7 @@
 
 /*
  Theme Name:   Colibri WP
- Version:      1.0.61
+ Version:      1.0.72
  Theme URI:    https://colibriwp.com/go/colibri-theme/
  Description:  Colibri is a beautiful, extremely customizable, multipurpose theme that you can use to create an amazing website by drag and drop. It comes with a predesigned home page, 5 header designs and over 35 ready to use content blocks that you can easily customize. You can also design your own custom blocks by combining over 25 drag and drop components. Colibri has lots of customization options (video background, slideshow background, header content types, etc) that will help you create a website that stands out in no time. It is also responsive so it works on mobile devices out of the box. Colibri is the only theme you will ever need! CHECK OUT THE DEMOS: https://colibriwp.com/go/demos
  Author:       Extend Themes
@@ -4440,6 +4440,412 @@ html.colibri-wp-theme pre {
   white-space: pre-line;
 }
 
+html.colibri-wp-theme .page-comments .post-comments .comment-metadata * {
+  color: inherit;
+}
+
+html.colibri-wp-theme .page-comments .post-comments .comment-author img {
+  -webkit-box-sizing: initial;
+          box-sizing: initial;
+}
+
+html.colibri-wp-theme .page-comments .post-comments .comment-author cite a {
+  color: inherit;
+  font: inherit;
+  line-height: inherit;
+}
+
+html.colibri-wp-theme .page-comments .post-comments .comment-body .reply a {
+  display: block;
+}
+
+html.colibri-wp-theme .page-comments .post-comments .comment-body .comment-content * {
+  color: inherit;
+}
+
+html.colibri-wp-theme .page-comments .post-comments .comment-body ul,
+html.colibri-wp-theme .page-comments .post-comments .comment-body ol {
+  /** din mesmerize */
+  margin: auto 1.5em 1em 1.5em;
+}
+
+html.colibri-wp-theme .page-comments .post-comments .comment-body ul ul,
+html.colibri-wp-theme .page-comments .post-comments .comment-body ul ol,
+html.colibri-wp-theme .page-comments .post-comments .comment-body ol ul,
+html.colibri-wp-theme .page-comments .post-comments .comment-body ol ol {
+  margin: 0 0 0 1.5em;
+}
+
+html.colibri-wp-theme .page-comments .post-comments .comment-list,
+html.colibri-wp-theme .page-comments .post-comments .comment-list .children {
+  list-style-type: none;
+}
+
+html.colibri-wp-theme .page-comments .post-comments .comments-disabled {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+html.colibri-wp-theme .page-comments .blog-post-comments-not-allow {
+  border-radius: 3px;
+  background-color: rgba(3, 169, 244, 0.05);
+  border: solid 1px rgba(3, 169, 244, 0.1);
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+html.colibri-wp-theme .page-comments .blog-post-comments-not-allow .blog-comments-not-allow-message {
+  font-weight: 800;
+  font-size: 16px;
+}
+
+html.colibri-wp-theme .page-comments .comment-respond .comment-form-comment label {
+  display: block;
+}
+
+html.colibri-wp-theme .page-comments .comment-respond .comment-form-author label {
+  display: block;
+}
+
+html.colibri-wp-theme .page-comments .comment-respond .comment-form-url label {
+  display: block;
+}
+
+html.colibri-wp-theme .page-comments .comment-respond .comment-form-email label {
+  display: block;
+}
+
+html.colibri-wp-theme .page-comments .comment-respond input,
+html.colibri-wp-theme .page-comments .comment-respond textarea {
+  max-width: 100%;
+}
+
+html.colibri-wp-theme .page-comments .comment-respond textarea {
+  width: 100%;
+  min-height: 200px;
+  resize: vertical;
+}
+
+html.colibri-wp-theme .page-comments .comment-respond input[type=submit] {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  cursor: pointer;
+}
+
+html.colibri-wp-theme #colibri .page-comments .blog-post-comments {
+  border-top-width: 1px;
+  border-top-color: #eeeeee;
+  border-top-style: solid;
+  border-right-width: 0px;
+  border-right-color: #eeeeee;
+  border-right-style: solid;
+  border-bottom-width: 0px;
+  border-bottom-color: #eeeeee;
+  border-bottom-style: solid;
+  border-left-width: 0px;
+  border-left-color: #eeeeee;
+  border-left-style: solid;
+  padding-top: 15px;
+}
+
+html.colibri-wp-theme #colibri .page-comments .comment.even {
+  background-color: #FFFFFF;
+  background-image: none;
+  border-top-width: 0px;
+  border-top-style: none;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-right-width: 0px;
+  border-right-style: none;
+  border-bottom-width: 0px;
+  border-bottom-style: none;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-left-width: 0px;
+  border-left-style: none;
+  padding-top: 12px;
+  padding-right: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+}
+
+html.colibri-wp-theme #colibri .page-comments .comment.odd {
+  background-color: rgba(166, 220, 244, 0.1);
+  background-image: none;
+  border-top-width: 0px;
+  border-top-style: none;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-right-width: 0px;
+  border-right-style: none;
+  border-bottom-width: 0px;
+  border-bottom-style: none;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-left-width: 0px;
+  border-left-style: none;
+  padding-top: 12px;
+  padding-right: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+}
+
+html.colibri-wp-theme #colibri .page-comments .comments-title {
+  font-family: Open Sans;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1.25em;
+  color: black;
+}
+
+html.colibri-wp-theme #colibri .page-comments .comment-meta {
+  color: #999999;
+  margin-bottom: 16px;
+}
+
+html.colibri-wp-theme #colibri .page-comments .comment-author img {
+  width: 30px;
+  height: 30px;
+  background-color: unset;
+  background-image: none;
+  border-top-width: 0px;
+  border-top-style: none;
+  border-top-left-radius: 300px;
+  border-top-right-radius: 300px;
+  border-right-width: 0px;
+  border-right-style: none;
+  border-bottom-width: 0px;
+  border-bottom-style: none;
+  border-bottom-left-radius: 300px;
+  border-bottom-right-radius: 300px;
+  border-left-width: 0px;
+  border-left-style: none;
+}
+
+html.colibri-wp-theme #colibri .page-comments .comment-author .url {
+  font-weight: 600;
+  font-style: normal;
+  text-decoration: none;
+  color: #333333;
+  background-color: unset;
+  background-image: none;
+  margin-left: 5px;
+}
+
+html.colibri-wp-theme #colibri .page-comments .comment-metadata {
+  text-decoration: none;
+  font-size: 14px;
+  color: #999999;
+  background-color: unset;
+  background-image: none;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+html.colibri-wp-theme #colibri .page-comments .comment-metadata:hover {
+  color: black;
+}
+
+html.colibri-wp-theme #colibri .page-comments .comment-metadata:hover {
+  color: black;
+}
+
+html.colibri-wp-theme #colibri .page-comments .comment-content {
+  text-decoration: none;
+  font-size: 16px;
+  color: #666666;
+}
+
+html.colibri-wp-theme #colibri .page-comments .comment-content p {
+  color: #666666;
+}
+
+html.colibri-wp-theme #colibri .page-comments .comment-content a:hover {
+  color: #026e9f;
+}
+
+html.colibri-wp-theme #colibri .page-comments .comment-body .reply a {
+  margin-bottom: 10px;
+  font-weight: 400;
+  text-transform: lowercase;
+  font-size: 1em;
+  line-height: 1.5;
+  color: #03a9f4;
+}
+
+html.colibri-wp-theme #colibri .page-comments .comment-body .reply a:hover {
+  color: #026e9f;
+}
+
+html.colibri-wp-theme #colibri .page-comments .comment-body .reply a:hover {
+  color: #026e9f;
+}
+
+html.colibri-wp-theme #colibri .page-comments .children {
+  margin-left: 12px;
+}
+
+html.colibri-wp-theme #colibri .page-comments .comments-disabled {
+  text-align: center;
+  margin-bottom: 0px;
+  text-decoration: none;
+  color: #666666;
+}
+
+html.colibri-wp-theme #colibri .comment-respond {
+  border-top-width: 1px;
+  border-top-color: #eeeeee;
+  border-top-style: solid;
+  border-right-width: 0px;
+  border-right-color: #eeeeee;
+  border-right-style: solid;
+  border-bottom-width: 0px;
+  border-bottom-color: #eeeeee;
+  border-bottom-style: solid;
+  border-left-width: 0px;
+  border-left-color: #eeeeee;
+  border-left-style: solid;
+  padding-top: 15px;
+}
+
+html.colibri-wp-theme #colibri .comment-respond .comment-reply-title {
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 1.25em;
+  color: black;
+}
+
+html.colibri-wp-theme #colibri .comment-respond label {
+  color: #666666;
+  border-top-width: 0px;
+  border-top-style: none;
+  border-right-width: 0px;
+  border-right-style: none;
+  border-bottom-width: 0px;
+  border-bottom-style: none;
+  border-left-width: 0px;
+  border-left-style: none;
+}
+
+html.colibri-wp-theme #colibri .comment-respond input:not([type="submit"]),
+html.colibri-wp-theme #colibri .comment-respond textarea {
+  border-top-width: 1px;
+  border-top-color: #eeeeee;
+  border-top-style: solid;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-right-width: 1px;
+  border-right-color: #eeeeee;
+  border-right-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #eeeeee;
+  border-bottom-style: solid;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-left-width: 1px;
+  border-left-color: #eeeeee;
+  border-left-style: solid;
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 16px;
+  color: #666666;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: none;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+
+html.colibri-wp-theme #colibri .comment-respond .comment-form [type="submit"] {
+  background-color: #03a9f4;
+  background-image: none;
+  border-top-width: 2px;
+  border-top-color: #03a9f4;
+  border-top-style: solid;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-right-width: 2px;
+  border-right-color: #03a9f4;
+  border-right-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #03a9f4;
+  border-bottom-style: solid;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-left-width: 2px;
+  border-left-color: #03a9f4;
+  border-left-style: solid;
+  padding-top: 12px;
+  padding-right: 24px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  font-family: Open Sans;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 1;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+}
+
+html.colibri-wp-theme #colibri .comment-respond .comment-form [type="submit"]:hover {
+  background-color: #026e9f;
+  border-top-color: #026e9f;
+  border-right-color: #026e9f;
+  border-bottom-color: #026e9f;
+  border-left-color: #026e9f;
+}
+
+html.colibri-wp-theme #colibri .comment-respond .comment-form [type="submit"]:hover {
+  background-color: #026e9f;
+  border-top-color: #026e9f;
+  border-right-color: #026e9f;
+  border-bottom-color: #026e9f;
+  border-left-color: #026e9f;
+}
+
+html.colibri-wp-theme #colibri .comment-respond .comment-form [type="submit"]:active {
+  background-color: #03a9f4;
+  background-image: none;
+  border-top-width: 2px;
+  border-top-color: #03a9f4;
+  border-top-style: solid;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-right-width: 2px;
+  border-right-color: #03a9f4;
+  border-right-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #03a9f4;
+  border-bottom-style: solid;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-left-width: 2px;
+  border-left-color: #03a9f4;
+  border-left-style: solid;
+  padding-top: 12px;
+  padding-right: 24px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  font-family: Open Sans;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 1;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+}
+
+html.colibri-wp-theme #colibri .comment-respond .comment-notes {
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 14px;
+  color: #999999;
+}
+
 html.colibri-wp-theme [class*=style-],
 html.colibri-wp-theme [class*=local-style-],
 html.colibri-wp-theme .h-global-transition,
@@ -4904,6 +5310,10 @@ html.colibri-wp-theme .dummy-column {
   flex-grow: 1;
   max-width: 100%;
   min-width: 50px;
+}
+
+html.colibri-wp-theme .h-column {
+  min-width: 0;
 }
 
 html.colibri-wp-theme .h-column.masonry-item {
@@ -6755,6 +7165,7 @@ html.colibri-wp-theme .min-height-100 {
 
 html.colibri-wp-theme .h-offscreen-panel {
   height: 100%;
+  max-width: 100%;
 }
 
 html.colibri-wp-theme .offscreen-overlay {
@@ -6832,8 +7243,8 @@ html.colibri-wp-theme ul.colibri-menu.bordered-active-item > li {
   position: relative;
 }
 
-html.colibri-wp-theme ul.colibri-menu.bordered-active-item > li:before,
-html.colibri-wp-theme ul.colibri-menu.bordered-active-item > li:after {
+html.colibri-wp-theme ul.colibri-menu.bordered-active-item > li::before,
+html.colibri-wp-theme ul.colibri-menu.bordered-active-item > li::after {
   content: " ";
   display: block;
   width: 100%;
@@ -6844,16 +7255,16 @@ html.colibri-wp-theme ul.colibri-menu.bordered-active-item > li:after {
   opacity: 0;
 }
 
-html.colibri-wp-theme ul.colibri-menu.bordered-active-item > li:before {
+html.colibri-wp-theme ul.colibri-menu.bordered-active-item > li::before {
   top: 0.5em;
 }
 
-html.colibri-wp-theme ul.colibri-menu.bordered-active-item > li:after {
+html.colibri-wp-theme ul.colibri-menu.bordered-active-item > li::after {
   bottom: 0.5em;
 }
 
-html.colibri-wp-theme ul.colibri-menu.bordered-active-item.effect-borders-in > li:not(.current_page_item):not(current-menu-item):before,
-html.colibri-wp-theme ul.colibri-menu.bordered-active-item.effect-borders-in > li:not(.current_page_item):not(current-menu-item):after {
+html.colibri-wp-theme ul.colibri-menu.bordered-active-item.effect-borders-in > li:not(.current_page_item):not(current-menu-item)::before,
+html.colibri-wp-theme ul.colibri-menu.bordered-active-item.effect-borders-in > li:not(.current_page_item):not(current-menu-item)::after {
   width: 100%;
   content: "";
   opacity: 0;
@@ -6861,53 +7272,49 @@ html.colibri-wp-theme ul.colibri-menu.bordered-active-item.effect-borders-in > l
   transition: all 0.3s;
 }
 
-html.colibri-wp-theme ul.colibri-menu.bordered-active-item.effect-borders-in > li:not(.current_page_item):not(current-menu-item):before {
-  -webkit-transform: translateY(-10px);
-  transform: translateY(-10px);
+html.colibri-wp-theme ul.colibri-menu.bordered-active-item.effect-borders-in > li:not(.current_page_item):not(current-menu-item)::before {
+  margin-top: -10px;
 }
 
-html.colibri-wp-theme ul.colibri-menu.bordered-active-item.effect-borders-in > li:not(.current_page_item):not(current-menu-item):after {
-  -webkit-transform: translateY(10px);
-  transform: translateY(10px);
+html.colibri-wp-theme ul.colibri-menu.bordered-active-item.effect-borders-in > li:not(.current_page_item):not(current-menu-item)::after {
+  margin-bottom: -10px;
 }
 
-html.colibri-wp-theme ul.colibri-menu.bordered-active-item.effect-borders-in > li:not(.current_page_item):not(current-menu-item).hover:before,
-html.colibri-wp-theme ul.colibri-menu.bordered-active-item.effect-borders-in > li:not(.current_page_item):not(current-menu-item).hover:after,
-html.colibri-wp-theme ul.colibri-menu.bordered-active-item.effect-borders-in > li:not(.current_page_item):not(current-menu-item):hover:before,
-html.colibri-wp-theme ul.colibri-menu.bordered-active-item.effect-borders-in > li:not(.current_page_item):not(current-menu-item):hover:after {
+html.colibri-wp-theme ul.colibri-menu.bordered-active-item.effect-borders-in > li:not(.current_page_item):not(current-menu-item).hover::before,
+html.colibri-wp-theme ul.colibri-menu.bordered-active-item.effect-borders-in > li:not(.current_page_item):not(current-menu-item).hover::after,
+html.colibri-wp-theme ul.colibri-menu.bordered-active-item.effect-borders-in > li:not(.current_page_item):not(current-menu-item):hover::before,
+html.colibri-wp-theme ul.colibri-menu.bordered-active-item.effect-borders-in > li:not(.current_page_item):not(current-menu-item):hover::after {
   opacity: 1;
-  -webkit-transform: translateY(0px);
-  transform: translateY(0px);
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-html.colibri-wp-theme ul.colibri-menu.bordered-active-item.effect-borders-out > li:not(.current_page_item):not(current-menu-item):before,
-html.colibri-wp-theme ul.colibri-menu.bordered-active-item.effect-borders-out > li:not(.current_page_item):not(current-menu-item):after {
+html.colibri-wp-theme ul.colibri-menu.bordered-active-item.effect-borders-out > li:not(.current_page_item):not(current-menu-item)::before,
+html.colibri-wp-theme ul.colibri-menu.bordered-active-item.effect-borders-out > li:not(.current_page_item):not(current-menu-item)::after {
   opacity: 0;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
 
-html.colibri-wp-theme ul.colibri-menu.bordered-active-item.effect-borders-out > li:not(.current_page_item):not(current-menu-item):before {
-  -webkit-transform: translateY(10px);
-  transform: translateY(10px);
+html.colibri-wp-theme ul.colibri-menu.bordered-active-item.effect-borders-out > li:not(.current_page_item):not(current-menu-item)::before {
+  margin-top: 10px;
 }
 
-html.colibri-wp-theme ul.colibri-menu.bordered-active-item.effect-borders-out > li:not(.current_page_item):not(current-menu-item):after {
-  -webkit-transform: translateY(-10px);
-  transform: translateY(-10px);
+html.colibri-wp-theme ul.colibri-menu.bordered-active-item.effect-borders-out > li:not(.current_page_item):not(current-menu-item)::after {
+  margin-bottom: 10px;
 }
 
-html.colibri-wp-theme ul.colibri-menu.bordered-active-item.effect-borders-out > li:not(.current_page_item):not(current-menu-item).hover:before,
-html.colibri-wp-theme ul.colibri-menu.bordered-active-item.effect-borders-out > li:not(.current_page_item):not(current-menu-item).hover:after,
-html.colibri-wp-theme ul.colibri-menu.bordered-active-item.effect-borders-out > li:not(.current_page_item):not(current-menu-item):hover:before,
-html.colibri-wp-theme ul.colibri-menu.bordered-active-item.effect-borders-out > li:not(.current_page_item):not(current-menu-item):hover:after {
+html.colibri-wp-theme ul.colibri-menu.bordered-active-item.effect-borders-out > li:not(.current_page_item):not(current-menu-item).hover::before,
+html.colibri-wp-theme ul.colibri-menu.bordered-active-item.effect-borders-out > li:not(.current_page_item):not(current-menu-item).hover::after,
+html.colibri-wp-theme ul.colibri-menu.bordered-active-item.effect-borders-out > li:not(.current_page_item):not(current-menu-item):hover::before,
+html.colibri-wp-theme ul.colibri-menu.bordered-active-item.effect-borders-out > li:not(.current_page_item):not(current-menu-item):hover::after {
   opacity: 1;
-  -webkit-transform: translateY(0px);
-  transform: translateY(0px);
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
-html.colibri-wp-theme ul.colibri-menu.bordered-active-item.effect-borders-grow > li:not(.current_page_item):not(current-menu-item):before,
-html.colibri-wp-theme ul.colibri-menu.bordered-active-item.effect-borders-grow > li:not(.current_page_item):not(current-menu-item):after {
+html.colibri-wp-theme ul.colibri-menu.bordered-active-item.effect-borders-grow > li:not(.current_page_item):not(current-menu-item)::before,
+html.colibri-wp-theme ul.colibri-menu.bordered-active-item.effect-borders-grow > li:not(.current_page_item):not(current-menu-item)::after {
   opacity: 0;
   width: 0;
   content: '';
@@ -6915,133 +7322,133 @@ html.colibri-wp-theme ul.colibri-menu.bordered-active-item.effect-borders-grow >
   transition: all 0.3s;
 }
 
-html.colibri-wp-theme ul.colibri-menu.bordered-active-item.effect-borders-grow > li:not(.current_page_item):not(current-menu-item):before {
+html.colibri-wp-theme ul.colibri-menu.bordered-active-item.effect-borders-grow > li:not(.current_page_item):not(current-menu-item)::before {
   left: 0em;
   right: auto;
 }
 
-html.colibri-wp-theme ul.colibri-menu.bordered-active-item.effect-borders-grow > li:not(.current_page_item):not(current-menu-item):after {
+html.colibri-wp-theme ul.colibri-menu.bordered-active-item.effect-borders-grow > li:not(.current_page_item):not(current-menu-item)::after {
   right: 0em;
   left: auto;
 }
 
-html.colibri-wp-theme ul.colibri-menu.bordered-active-item.effect-borders-grow > li:not(.current_page_item):not(current-menu-item).hover:before,
-html.colibri-wp-theme ul.colibri-menu.bordered-active-item.effect-borders-grow > li:not(.current_page_item):not(current-menu-item).hover:after,
-html.colibri-wp-theme ul.colibri-menu.bordered-active-item.effect-borders-grow > li:not(.current_page_item):not(current-menu-item):hover:before,
-html.colibri-wp-theme ul.colibri-menu.bordered-active-item.effect-borders-grow > li:not(.current_page_item):not(current-menu-item):hover:after {
+html.colibri-wp-theme ul.colibri-menu.bordered-active-item.effect-borders-grow > li:not(.current_page_item):not(current-menu-item).hover::before,
+html.colibri-wp-theme ul.colibri-menu.bordered-active-item.effect-borders-grow > li:not(.current_page_item):not(current-menu-item).hover::after,
+html.colibri-wp-theme ul.colibri-menu.bordered-active-item.effect-borders-grow > li:not(.current_page_item):not(current-menu-item):hover::before,
+html.colibri-wp-theme ul.colibri-menu.bordered-active-item.effect-borders-grow > li:not(.current_page_item):not(current-menu-item):hover::after {
   opacity: 1;
   width: 100%;
 }
 
-html.colibri-wp-theme ul.colibri-menu.bordered-active-item.effect-none > li:not(.current_page_item):not(current-menu-item):before,
-html.colibri-wp-theme ul.colibri-menu.bordered-active-item.effect-none > li:not(.current_page_item):not(current-menu-item):after {
+html.colibri-wp-theme ul.colibri-menu.bordered-active-item.effect-none > li:not(.current_page_item):not(current-menu-item)::before,
+html.colibri-wp-theme ul.colibri-menu.bordered-active-item.effect-none > li:not(.current_page_item):not(current-menu-item)::after {
   opacity: 0;
   -webkit-transition: none;
   transition: none;
 }
 
-html.colibri-wp-theme ul.colibri-menu.bordered-active-item.effect-none > li:not(.current_page_item):not(current-menu-item).hover:before,
-html.colibri-wp-theme ul.colibri-menu.bordered-active-item.effect-none > li:not(.current_page_item):not(current-menu-item).hover:after,
-html.colibri-wp-theme ul.colibri-menu.bordered-active-item.effect-none > li:not(.current_page_item):not(current-menu-item):hover:before,
-html.colibri-wp-theme ul.colibri-menu.bordered-active-item.effect-none > li:not(.current_page_item):not(current-menu-item):hover:after {
+html.colibri-wp-theme ul.colibri-menu.bordered-active-item.effect-none > li:not(.current_page_item):not(current-menu-item).hover::before,
+html.colibri-wp-theme ul.colibri-menu.bordered-active-item.effect-none > li:not(.current_page_item):not(current-menu-item).hover::after,
+html.colibri-wp-theme ul.colibri-menu.bordered-active-item.effect-none > li:not(.current_page_item):not(current-menu-item):hover::before,
+html.colibri-wp-theme ul.colibri-menu.bordered-active-item.effect-none > li:not(.current_page_item):not(current-menu-item):hover::after {
   opacity: 1;
 }
 
-html.colibri-wp-theme ul.colibri-menu.bordered-active-item.grow-from-left > li:not(.current_page_item):not(current-menu-item):before,
-html.colibri-wp-theme ul.colibri-menu.bordered-active-item.grow-from-left > li:not(.current_page_item):not(current-menu-item):after {
+html.colibri-wp-theme ul.colibri-menu.bordered-active-item.grow-from-left > li:not(.current_page_item):not(current-menu-item)::before,
+html.colibri-wp-theme ul.colibri-menu.bordered-active-item.grow-from-left > li:not(.current_page_item):not(current-menu-item)::after {
   left: 0 !important;
   right: auto !important;
 }
 
-html.colibri-wp-theme ul.colibri-menu.bordered-active-item.grow-from-right > li:not(.current_page_item):not(current-menu-item):before,
-html.colibri-wp-theme ul.colibri-menu.bordered-active-item.grow-from-right > li:not(.current_page_item):not(current-menu-item):after {
+html.colibri-wp-theme ul.colibri-menu.bordered-active-item.grow-from-right > li:not(.current_page_item):not(current-menu-item)::before,
+html.colibri-wp-theme ul.colibri-menu.bordered-active-item.grow-from-right > li:not(.current_page_item):not(current-menu-item)::after {
   right: 0 !important;
   left: auto !important;
 }
 
-html.colibri-wp-theme ul.colibri-menu.bordered-active-item.grow-from-center > li:not(.current_page_item):not(current-menu-item):before,
-html.colibri-wp-theme ul.colibri-menu.bordered-active-item.grow-from-center > li:not(.current_page_item):not(current-menu-item):after {
+html.colibri-wp-theme ul.colibri-menu.bordered-active-item.grow-from-center > li:not(.current_page_item):not(current-menu-item)::before,
+html.colibri-wp-theme ul.colibri-menu.bordered-active-item.grow-from-center > li:not(.current_page_item):not(current-menu-item)::after {
   left: 50% !important;
   right: auto !important;
 }
 
-html.colibri-wp-theme ul.colibri-menu.bordered-active-item.grow-from-center > li:not(.current_page_item):not(current-menu-item).hover:before,
-html.colibri-wp-theme ul.colibri-menu.bordered-active-item.grow-from-center > li:not(.current_page_item):not(current-menu-item).hover:after,
-html.colibri-wp-theme ul.colibri-menu.bordered-active-item.grow-from-center > li:not(.current_page_item):not(current-menu-item):hover:before,
-html.colibri-wp-theme ul.colibri-menu.bordered-active-item.grow-from-center > li:not(.current_page_item):not(current-menu-item):hover:after {
+html.colibri-wp-theme ul.colibri-menu.bordered-active-item.grow-from-center > li:not(.current_page_item):not(current-menu-item).hover::before,
+html.colibri-wp-theme ul.colibri-menu.bordered-active-item.grow-from-center > li:not(.current_page_item):not(current-menu-item).hover::after,
+html.colibri-wp-theme ul.colibri-menu.bordered-active-item.grow-from-center > li:not(.current_page_item):not(current-menu-item):hover::before,
+html.colibri-wp-theme ul.colibri-menu.bordered-active-item.grow-from-center > li:not(.current_page_item):not(current-menu-item):hover::after {
   left: 0 !important;
   right: auto !important;
 }
 
-html.colibri-wp-theme ul.colibri-menu.bordered-active-item--top > li:after {
+html.colibri-wp-theme ul.colibri-menu.bordered-active-item--top > li::after {
   visibility: hidden;
 }
 
-html.colibri-wp-theme ul.colibri-menu.bordered-active-item--top > .current_page_item:before,
-html.colibri-wp-theme ul.colibri-menu.bordered-active-item--top > .current-menu-item:before {
+html.colibri-wp-theme ul.colibri-menu.bordered-active-item--top > .current_page_item::before,
+html.colibri-wp-theme ul.colibri-menu.bordered-active-item--top > .current-menu-item::before {
   opacity: 1;
 }
 
 /** border active item */
 
-html.colibri-wp-theme .coloured-nav ul.colibri-menu.bordered-active-item--top > .current_page_item:before,
-html.colibri-wp-theme .coloured-nav ul.colibri-menu.bordered-active-item--top > .current-menu-item:before {
+html.colibri-wp-theme .coloured-nav ul.colibri-menu.bordered-active-item--top > .current_page_item::before,
+html.colibri-wp-theme .coloured-nav ul.colibri-menu.bordered-active-item--top > .current-menu-item::before {
   opacity: 1;
 }
 
-html.colibri-wp-theme .h-navigation_sticky ul.colibri-menu.bordered-active-item--top > .current_page_item:before,
-html.colibri-wp-theme .h-navigation_sticky ul.colibri-menu.bordered-active-item--top > .current-menu-item:before {
+html.colibri-wp-theme .h-navigation_sticky ul.colibri-menu.bordered-active-item--top > .current_page_item::before,
+html.colibri-wp-theme .h-navigation_sticky ul.colibri-menu.bordered-active-item--top > .current-menu-item::before {
   opacity: 1;
 }
 
 /** border active item */
 
-html.colibri-wp-theme ul.colibri-menu.bordered-active-item--bottom > li:before {
+html.colibri-wp-theme ul.colibri-menu.bordered-active-item--bottom > li::before {
   visibility: hidden;
 }
 
-html.colibri-wp-theme ul.colibri-menu.bordered-active-item--bottom > .current_page_item:after,
-html.colibri-wp-theme ul.colibri-menu.bordered-active-item--bottom > .current-menu-item:after {
+html.colibri-wp-theme ul.colibri-menu.bordered-active-item--bottom > .current_page_item::after,
+html.colibri-wp-theme ul.colibri-menu.bordered-active-item--bottom > .current-menu-item::after {
   opacity: 1;
 }
 
-html.colibri-wp-theme .coloured-nav ul.colibri-menu.bordered-active-item--bottom > .current_page_item:after,
-html.colibri-wp-theme .coloured-nav ul.colibri-menu.bordered-active-item--bottom > .current-menu-item:after {
+html.colibri-wp-theme .coloured-nav ul.colibri-menu.bordered-active-item--bottom > .current_page_item::after,
+html.colibri-wp-theme .coloured-nav ul.colibri-menu.bordered-active-item--bottom > .current-menu-item::after {
   opacity: 1;
 }
 
-html.colibri-wp-theme .h-navigation_sticky ul.colibri-menu.bordered-active-item--bottom > .current_page_item:after,
-html.colibri-wp-theme .h-navigation_sticky ul.colibri-menu.bordered-active-item--bottom > .current-menu-item:after {
+html.colibri-wp-theme .h-navigation_sticky ul.colibri-menu.bordered-active-item--bottom > .current_page_item::after,
+html.colibri-wp-theme .h-navigation_sticky ul.colibri-menu.bordered-active-item--bottom > .current-menu-item::after {
   opacity: 1;
 }
 
-html.colibri-wp-theme ul.colibri-menu.bordered-active-item--top-and-bottom > .current_page_item:before,
-html.colibri-wp-theme ul.colibri-menu.bordered-active-item--top-and-bottom > .current_page_item:after {
+html.colibri-wp-theme ul.colibri-menu.bordered-active-item--top-and-bottom > .current_page_item::before,
+html.colibri-wp-theme ul.colibri-menu.bordered-active-item--top-and-bottom > .current_page_item::after {
   opacity: 1;
 }
 
-html.colibri-wp-theme ul.colibri-menu.bordered-active-item--top-and-bottom > .current-menu-item:before,
-html.colibri-wp-theme ul.colibri-menu.bordered-active-item--top-and-bottom > .current-menu-item:after {
+html.colibri-wp-theme ul.colibri-menu.bordered-active-item--top-and-bottom > .current-menu-item::before,
+html.colibri-wp-theme ul.colibri-menu.bordered-active-item--top-and-bottom > .current-menu-item::after {
   opacity: 1;
 }
 
-html.colibri-wp-theme .coloured-nav ul.colibri-menu.bordered-active-item--top-and-bottom > .current_page_item:before,
-html.colibri-wp-theme .coloured-nav ul.colibri-menu.bordered-active-item--top-and-bottom > .current_page_item:after {
+html.colibri-wp-theme .coloured-nav ul.colibri-menu.bordered-active-item--top-and-bottom > .current_page_item::before,
+html.colibri-wp-theme .coloured-nav ul.colibri-menu.bordered-active-item--top-and-bottom > .current_page_item::after {
   opacity: 1;
 }
 
-html.colibri-wp-theme .coloured-nav ul.colibri-menu.bordered-active-item--top-and-bottom > .current-menu-item:before,
-html.colibri-wp-theme .coloured-nav ul.colibri-menu.bordered-active-item--top-and-bottom > .current-menu-item:after {
+html.colibri-wp-theme .coloured-nav ul.colibri-menu.bordered-active-item--top-and-bottom > .current-menu-item::before,
+html.colibri-wp-theme .coloured-nav ul.colibri-menu.bordered-active-item--top-and-bottom > .current-menu-item::after {
   opacity: 1;
 }
 
-html.colibri-wp-theme .h-navigation_sticky ul.colibri-menu.bordered-active-item--top-and-bottom > .current_page_item:before,
-html.colibri-wp-theme .h-navigation_sticky ul.colibri-menu.bordered-active-item--top-and-bottom > .current_page_item:after {
+html.colibri-wp-theme .h-navigation_sticky ul.colibri-menu.bordered-active-item--top-and-bottom > .current_page_item::before,
+html.colibri-wp-theme .h-navigation_sticky ul.colibri-menu.bordered-active-item--top-and-bottom > .current_page_item::after {
   opacity: 1;
 }
 
-html.colibri-wp-theme .h-navigation_sticky ul.colibri-menu.bordered-active-item--top-and-bottom > .current-menu-item:before,
-html.colibri-wp-theme .h-navigation_sticky ul.colibri-menu.bordered-active-item--top-and-bottom > .current-menu-item:after {
+html.colibri-wp-theme .h-navigation_sticky ul.colibri-menu.bordered-active-item--top-and-bottom > .current-menu-item::before,
+html.colibri-wp-theme .h-navigation_sticky ul.colibri-menu.bordered-active-item--top-and-bottom > .current-menu-item::after {
   opacity: 1;
 }
 
@@ -7454,7 +7861,12 @@ html.colibri-wp-theme ul.colibri-menu li {
 }
 
 html.colibri-wp-theme ul.colibri-menu li a {
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-decoration: none;
   white-space: nowrap;
   color: inherit;

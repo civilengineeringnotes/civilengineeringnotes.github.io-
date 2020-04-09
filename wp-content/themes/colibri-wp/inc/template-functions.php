@@ -296,8 +296,27 @@ function colibriwp_archive_nav_button( $attrs = array() ) {
 function colibriwp_archive_pagination() {
     colibriwp_render_pagination( '\colibriwp_numbers_pagination' );
 }
+function colibriwp_render_page_comments() {
+    if (!comments_open()) {
+        return;
+    }
+    ?>
+    <div id="page-comments" class="page-comments">
+        <div
+            class="h-section h-section-global-spacing d-flex align-items-lg-center align-items-md-center align-items-center">
+            <div class="h-section-grid-container h-section-boxed-container">
+                <div class="gutters-row-md-2 gutters-row-0 position-relative">
+                    <div class="h-px-lg-2 h-px-md-2 h-px-2 ">
+                        <?php echo colibriwp_post_comments() ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <?php
 
-function colibriwp_post_comments( $attrs = array() ) {
+}
+function colibriwp_post_comments( $attrs = array()) {
     // comments won't render without post//
     if ( is_customize_preview() ) {
         the_post();

@@ -284,6 +284,7 @@ class View {
         $class         = Utils::pathGet( $args, 'class', array() );
         $class         = array_merge( array( 'content', ' position-relative' ), $class );
         $args['class'] = $class;
+        $args['id']    = Utils::pathGet( $args, 'id', 'content' );
 
         self::printElementStart( 'div', $args );
 
